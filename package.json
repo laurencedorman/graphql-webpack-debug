@@ -1,0 +1,21 @@
+{
+  "name": "graphql.js-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack --mode=development main.js",
+    "build-prod": "webpack --mode=production main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Laurence Dorman <hello@laurencedorman.com>",
+  "license": "ISC",
+  "dependencies": {
+    "graphql.js": "^0.6.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
